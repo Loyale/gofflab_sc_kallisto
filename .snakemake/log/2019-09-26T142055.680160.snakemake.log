@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1
+
+[Thu Sep 26 14:20:55 2019]
+localrule all:
+    jobid: 0
+
+[Thu Sep 26 14:20:55 2019]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/.snakemake/log/2019-09-26T142055.680160.snakemake.log

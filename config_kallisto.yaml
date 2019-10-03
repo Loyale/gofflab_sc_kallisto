@@ -1,0 +1,10 @@
+KALLISTO: kallisto
+BUSTOOLS: bustools
+THREAD: 8
+OUTPUT: kallisto_neuron_10k_v3
+INDEX: index/mouse/mm10/transcriptome.idx
+FASTQS: fastqs/neuron_10k_v3_fastqs/neuron_10k_v3_S1_L001_R1_001.fastq.gz fastqs/neuron_10k_v3_fastqs/neuron_10k_v3_S1_L001_R2_001.fastq.gz fastqs/neuron_10k_v3_fastqs/neuron_10k_v3_S1_L002_R1_001.fastq.gz fastqs/neuron_10k_v3_fastqs/neuron_10k_v3_S1_L002_R2_001.fastq.gz
+SAMPLE_FILE: metadata/sample_info.tsv
+CHEM: 10Xv3
+TR2G: index/mouse/mm10/transcripts_to_genes.txt
+WHITELIST: whitelist/10x_V3_whitelist.txt

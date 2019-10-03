@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Job counts:
+	count	jobs
+	1	all
+	2	run_correct_count
+	2	run_kallisto
+	5
+
+[Thu Sep 26 14:30:09 2019]
+rule run_kallisto:
+    output: kallisto_out_single/B/matrix.ec
+    jobid: 4
+    benchmark: benchmarks_kallisto/B_1.txt
+    wildcards: sample=B
+
+RuleException in line 35 of /Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/Snakefile:
+NameError: The name 'sample' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

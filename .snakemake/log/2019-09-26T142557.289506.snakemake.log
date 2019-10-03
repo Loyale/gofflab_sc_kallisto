@@ -1,0 +1,3 @@
+KeyError in line 21 of /Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/Snakefile:
+'sample'
+  File "/Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/Snakefile", line 21, in <module>

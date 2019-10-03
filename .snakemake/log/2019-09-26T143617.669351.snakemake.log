@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	run_correct_count
+	2	run_kallisto
+	5
+
+[Thu Sep 26 14:36:17 2019]
+rule run_kallisto:
+    output: kallisto_out_single/A/matrix.ec
+    jobid: 3
+    benchmark: benchmarks_kallisto/A_1.txt
+    wildcards: sample=A
+
+RuleException in line 35 of /Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/Snakefile:
+NameError: The name 'sample' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

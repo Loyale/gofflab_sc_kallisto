@@ -1,0 +1,3 @@
+TypeError in line 20 of /Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/Snakefile:
+dict expected at most 1 arguments, got 2
+  File "/Users/loyalgoff/Dropbox/Projects/Software/gofflab_scRNA_seq_pipeline/Snakefile", line 20, in <module>
